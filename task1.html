@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="utf-8">
+    <title>WebD Task-1</title>
+
+    <!--to use the awesome font awesome collection of vector art, icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+ <body>
+    <h2>
+      <a href="">Home</a>
+      <span> | </span>
+      <a href="">Contact</a>
+      <span> | </span>
+      <a href="">About</a>
+      <span> | </span>
+      <a href="">Projects</a>
+    </h2>
+
+    <br>
+
+    <!--Student Registration Form heading-->
+    <h1>Student Registration Form</h1>
+    <!--input for first name-->
+    <label for="fName">First Name :</label>
+    <br>
+    <input type="text" id="fName" name="fName">
+    <br>
+    <!--input for last name-->
+    <label for="lName">Last Name :</label>
+    <br>
+    <input type="text" id="lName" name="lName">
+    <br>
+    <!--input for date of birth-->
+    <br>
+    <label for="DOB">DOB:</label>
+    <br>
+    <input type="date" id="birthday" name="DOB"><br>
+    <br><br>
+    <!--input for father's name-->
+    <label for="fatherName">Father's Name :</label>
+    <br>
+    <input type="text" id="fatherName" name="fatherName">
+    <br>
+    <!--for type of document-->
+    <br>
+    <label for="someDocument">Document :</label>
+    <br>
+    <input type="radio" name="adhaar" value="adhaar">Adhaar<br>
+    <input type="radio" name="drivingLicense" value="drivingLicense">Driving License<br>
+    <input type="radio" name="other" value="other">Other<br>
+    <!--for gender-->
+    <br>
+    <label for="gender" id="gender" name="gender">Gender :</label>
+    <select class="gender" name="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+      <option value="bot">robot?</option>
+    </select>
+    <!--box for the description-->
+    <br><br>
+    <label for="description" id="description" name="description">Description :</label>
+    <br>
+    <textarea name="descriptionText" rows="4" cols="50"></textarea>
+    <!--a checkbox for confirmation-->
+    <br>
+    <input type="checkbox">Confirm<br>
+    <input type="submit" name="submitInfo" value="Submit">
+    <!--some info about me now :)-->
+    <br><br><br>
+    <!--give me one line result-->
+    <span>
+      Made by Harsh Garg
+      <i class="fa fa-address-book" aria-hidden="true"></i>
+      <i class="fa fa-envelope" aria-hidden="true"></i>
+      <i class="fa fa-facebook" aria-hidden="true"></i>
+      <i class="fa fa-instagram" aria-hidden="true"></i>
+    </span>
+  </body>
+</html>
